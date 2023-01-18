@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QuizQuestions - Travel Quiz</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div align="center">
+            <br><br>
+            <img id="imgtitl" style="bottom:800px;"height="150" width="466" class="grow" alt="QuizQuestions Logo" src="images/IMG_7660.jpg"><br>
+            <i id="link1">Quiz Questions, c. 2023 - All images created by Shay S. in Canva</i>
+            <br><br><br><br>
+            <hr>
+        </div>
+        <div id="div2">
+            <br><br><br><br><br><br><br><br><br>
+            <!--The CSS for the sidebar is based off of code accredited to W3Schools-->
+            <a href="indexo.html" id="return">Home Page</a>
+            <a href="feedback.html" id="feedback">Feedback</a>
+            <a href="suggestions.html" id="sug">Suggestions</a>
+            <a href="about.html" id="abo">About</a>
+            <a href="info.html" id="info">Quiz Info</a>
+            <a href="devel.html" id="devel">Progress</a>
+          </div>
+          <div id="tqpq1">
+            <p class="linksubtitle">I. I prefer a warm enviorment</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques1ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques1ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques1ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques1ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq2">
+            <p class="linksubtitle">II. I don't mind a crowded place</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques2ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques2ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques2ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques2ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq3">
+            <p class="linksubtitle">III. Good food is always important <br> to me</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques3ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques3ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques3ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques3ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq4">
+            <p class="linksubtitle">IV. I wouldn't mind waiting in line <br> for a good attraction</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques4ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques4ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques4ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques4ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq5">
+            <p class="linksubtitle">V. I prefer a relaxed vacation</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques5ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques5ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques5ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques5ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq6">
+            <p class="linksubtitle">VI. I prefer a big city over a small beach</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques6ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques6ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques6ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques6ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq7">
+            <p class="linksubtitle">VII. I love learning about foreign cultures <br> and history</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques7ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques7ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques7ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques7ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq8">
+            <p class="linksubtitle">VIII. I would visit a city for its culture alone </p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques8ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques8ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques8ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques8ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq9">
+            <p class="linksubtitle">IX. I try and learn the language of the place <br> I'm visiting</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques9ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques9ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques9ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques9ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq10">
+            <p class="linksubtitle">X. I go to a place to learn, not relax</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques10ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques10ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques10ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques10ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq11">
+            <p class="linksubtitle">XI. I prefer Europe</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques11ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques11ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques11ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques11ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq12">
+            <p class="linksubtitle">XII. I prefer Asia</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques12ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques12ans2">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques12ans4">Disagree</button></li>
+                    <li><button class="button" onclick="ques12ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq13">
+            <p class="linksubtitle">XIII. I like walking and exploring <br></p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques13ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques13ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques13ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques13ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq14">
+            <p class="linksubtitle">XIV. I always travel with my family</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques14ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques14ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques14ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques14ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq15">
+            <p class="linksubtitle">XV. I would not be opposed to visiting <br> a "dangerous" vacation destination</b></p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques15ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques15ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques15ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques15ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq16">
+            <p class="linksubtitle">XVI. I hate traditional "tourist dedications"</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques16ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques16ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques16ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques16ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq17">
+            <p class="linksubtitle">XVII. I travel by myself</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques17ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques17ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques17ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques17ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq18">
+            <p class="linksubtitle">XVIII. I don't mind the heat</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques18ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques18ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques18ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques18ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq19">
+            <p class="linksubtitle">XIX. I love a humid climate</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques19ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques19ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques19ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques19ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq20">
+            <p class="linksubtitle">XX. I would not mind going on a cruise</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques20ans1()">Strongly Agree</button></li>
+                    <li><button class="button" onclick="ques20ans2()">Agree</button></li>
+                    <li><button class="button">Neutral</button></li>
+                    <li><button class="button" onclick="ques20ans4()">Disagree</button></li>
+                    <li><button class="button" onclick="ques20ans5()">Strongly Disagree</button>
+                </ul>
+          </div>
+          <div id="tqpq21">
+            <p class="linksubtitle"></p>
+                <ul class="qwe">
+                    <button class="button" onclick="ques21ans1()">Submit</button>
+                </ul>
+          </div>
+          <div id="end">
+            <p id="restitle" class="results" class="button"><b></b></p>
+          </div>
+    </body>
+    <script>
+        var titl = document.getElementById("imgtitl");
+        var text = document.getElementById("link1");
+        var timer = setInterval(mov, 13);
+        var move = 0;
+        var timer2 = setInterval(movtxt, 1)
+        var move2 = 0;
+        
+        function mov(){
+            titl.style.top = move + "px";
+            move++;
+            if(move >= 61){
+                clearInterval(timer);
+                }
+        }
+
+        function movtxt(){
+            text.style.top = move2 + "px";
+            move2++;
+            if(move2 >= 211){
+                clearInterval(timer2);
+                }
+        }
+        
+        var ques21 = 0;
+        var text1 = "<b>  Tokyo   </b><br><br><p>  The largest and fabled city in Japan, Tokyo is the perfect enviorment for an adventurer  </p><br><br>";
+        var text2 = "<b>  Seoul   </b><br><br><p>   Seoul is the culturally rich hub of South Korea, brimming with interesting experiences  </p><br><br>";
+        var text3 = "<b>  Beijing </b><br><br><p> The ancient capital of China, Beijing is the perfect destination for those seeking history</p><br><br>";
+        var text5 = "<b>   India  </b><br><br><p>   The country of India in itself is an adventure, with loads of places to explore and see </p><br><br>";
+        var text6 = "<b>   Dubai  </b><br><br><p>        The capital of the UAE, Dubai is a rich city with many lessons for tourists        </p><br><br>";
+        var text7 = "<b> Istanbul </b><br><br><p> This exciting city was the home of  conflict for two thousand years, filled with history  </p><br><br>";
+        var text8 = "<b>    Rome  </b><br><br><p> The capital of the Roman Empire, this city is a living museum of ancient life in old times</p><br><br>";
+        var text9 = "<b>   Paris  </b><br><br><p>          The centre of France, Paris is the eternal city of art and French pride          </p><br><br>";
+        var text10 = "<b> London  </b><br><br><p> The Capital of the UK, London is a not-so foreign city with attractions for every tourist </p><br><br>"
+        var text11 = "<b>Disneyland</b><br><br><p> The perfect destination for families, filled with fun for all ages in the rides and lines</p><br><br>"
+        var text12 = "<b>  Miami  </b><br><br><p> A relaxing place for those looking to leave the hustle of daily life and rest by the ocean</p><br><br>"
+        var text13 = "<b>New York </b><br><br><p>A hub of foods and peaceful walks, perfect for those seeking some time away in the big apple</p><br><br>"
+        var text14 = "<b>Los Angeles</b><br><br><p>A fancy city with many destinations for tourists. You can pick and choose what you want to see</p><br><br>"
+        var text15 = "<b> Kelowna </b><br><br><p> The California of Canada, Kelowna is perfect for those just seeking a getaway and to relax </p><br><br>"
+        var text16 = "<b>  Hawaii </b><br><br><p>  The Sands of Hawaii are a perfect relaxing destination for those seeking a beachside rest </p><br><br>"
+        var text17 = "<b>N. Zealand</b><br><br><p>   The Southern Islands are a relaxing mountain home for those seeking adventure and rest  </p><br><br>"
+        var text18 = "<b>  Banff   </b><br><br><p>      The crystal waters of Banff are great for those seeking good views and good rest     </p><br><br>"
+
+        function ques21ans1(){
+            ques21 = ques1 + ques2 + ques3 + ques4 + ques5 + ques6 + ques7 + ques8 + ques9 + ques10 + ques11 + ques12 + ques13 + ques14 + ques15 + ques16 + ques17 + ques18 + ques19 + ques20;
+            console.log(ques21);
+            if(ques21 == 37 || ques21 == 38 || ques21 == 39 || ques21 == 40){
+                document.getElementById("restitle").innerHTML = text1;
+            }
+            if(ques21 == 32 || ques21 == 33 || ques21 == 34 || ques21 == 35 || ques21 == 36){
+                document.getElementById("restitle").innerHTML = text2;
+            }
+            if(ques21 == 26 || ques21 == 27 || ques21 == 28 || ques21 == 29 || ques21 == 30 || ques21 == 31){
+                document.getElementById("restitle").innerHTML = text3;
+            }
+            if(ques21 == 20 || ques21 == 21 || ques21 == 22 || ques21 == 23 || ques21 == 24 || ques21 == 25){
+                document.getElementById("restitle").innerHTML = text5;
+            }
+            if(ques21 == 15 || ques21 == 16 || ques21 == 17 || ques21 == 18 || ques21 == 19){
+                document.getElementById("restitle").innerHTML = text6;
+            }
+            if(ques21 == 12 || ques21 == 13 || ques21 == 14){
+                document.getElementById("restitle").innerHTML = text7;
+            }
+            if(ques21 == 9 || ques21 == 10 || ques21 == 11){
+                document.getElementById("restitle").innerHTML = text8;
+            }
+            if(ques21 == 5 || ques21 == 6 || ques21 == 7 || ques21 == 8){
+                document.getElementById("restitle").innerHTML = text9; 
+            }
+            if(ques21 == 1 || ques21 == 2 || ques21 == 3 || ques21 == 4 || ques21 == -1 || ques21 == 0 || ques21 == -2 || ques21 == -3 || ques21 == -4){
+                document.getElementById("restitle").innerHTML = text10; 
+            }
+            if(ques21 == -5 || ques21 == -6 || ques21 == -7 || ques21 == -8){
+                document.getElementById("restitle").innerHTML = text11; 
+            }
+            if(ques21 == -9 || ques21 == -10 || ques21 == -11){
+                document.getElementById("restitle").innerHTML = text12;
+            }
+            if(ques21 == -12 || ques21 == -13 || ques21 == -14 || ques21 == -15){
+                document.getElementById("restitle").innerHTML = text13;
+            }
+            if(ques21 == -16 || ques21 == -17 || ques21 == -18 || ques21 == -19){
+                document.getElementById("restitle").innerHTML = text14;
+            }
+            if(ques21 == -20 || ques21 == -21 || ques21 == -22 || ques21 == -23 || ques21 == -24 || ques21 == -25){
+                document.getElementById("restitle").innerHTML = text15;
+            }
+            if(ques21 == -26 || ques21 == -27 || ques21 == -28){
+                document.getElementById("restitle").innerHTML = text16;
+            }
+            if(ques21 == -29 || ques21 == -30 || ques21 == -31){
+                document.getElementById("restitle").innerHTML = text17;
+            }
+            if(ques21 == -32 || ques21 == -33 || ques21 == -34 || ques21 == -35 || ques21 == -36 || ques21 == -37 || ques21 == -38 || ques21 == 39 || ques21 == 40){
+                document.getElementById("restitle").innerHTML = text18;
+            }
+        }
+
+        var ques1 = 0;
+
+        function ques1ans1(){
+            ques1 = 2;
+            console.log(ques1);
+        }function ques1ans2(){
+            ques1 = 1;
+            console.log(ques1);
+        }function ques1ans4(){
+            ques1 = -1;
+            console.log(ques1);
+        }function ques1ans5(){
+            ques1 = -2;
+            console.log(ques1);
+        }
+
+        var ques2 = 0;
+
+        function ques2ans1(){
+            ques2 = 2;
+            console.log(ques2);
+        }function ques2ans2(){
+            ques2 = 1;
+            console.log(ques2);
+        }function ques2ans4(){
+            ques2 = -1;
+            console.log(ques2);
+        }function ques2ans5(){
+            ques2 = -2;
+            console.log(ques2);
+        }
+        var ques3 = 0;
+
+        function ques3ans1(){
+            ques3 = 2;
+            console.log(ques3);
+        }function ques3ans2(){
+            ques3 = 1;
+            console.log(ques3);
+        }function ques3ans4(){
+            ques3 = -1;
+            console.log(ques3);
+        }function ques3ans5(){
+            ques3 = -2;
+            console.log(ques3);
+        }
+
+        var ques4 = 0;
+
+        function ques4ans1(){
+            ques4 = 2;
+            console.log(ques4);
+        }function ques4ans2(){
+            ques4 = 1;
+            console.log(ques4);
+        }function ques4ans4(){
+            ques4 = -1;
+            console.log(ques4);
+        }function ques4ans5(){
+            ques4 = -2;
+            console.log(ques4);
+        }
+        var ques5 = 0;
+
+        function ques5ans1(){
+            ques5 = -2;
+            console.log(ques5);
+        }function ques5ans2(){
+            ques5 = -1;
+            console.log(ques5);
+        }function ques5ans4(){
+            ques5 = 1;
+            console.log(ques5);
+        }function ques5ans5(){
+            ques5 = 2;
+            console.log(ques5);
+        }
+
+        var ques6 = 0;
+
+        function ques6ans1(){
+            ques6 = 2;
+            console.log(ques6);
+        }function ques6ans2(){
+            ques6 = 1;
+            console.log(ques6);
+        }function ques6ans4(){
+            ques6 = -1;
+            console.log(ques6);
+        }function ques6ans5(){
+            ques6 = -2;
+            console.log(ques6);
+        }
+
+        var ques7 = 0;
+
+        function ques7ans1(){
+            ques7 = 2;
+            console.log(ques7);
+        }function ques7ans2(){
+            ques7 = 1;
+            console.log(ques7);
+        }function ques7ans4(){
+            ques7 = -1;
+            console.log(ques7);
+        }function ques7ans5(){
+            ques7 = -2;
+            console.log(ques7);
+        }
+
+        var ques8 = 0;
+
+        function ques8ans1(){
+            ques8 = 2;
+            console.log(ques8);
+        }function ques8ans2(){
+            ques8 = 1;
+            console.log(ques8);
+        }function ques8ans4(){
+            ques8 = -1;
+            console.log(ques8);
+        }function ques8ans5(){
+            ques8 = -2;
+            console.log(ques8);
+        }
+
+        var ques9 = 0;
+
+        function ques9ans1(){
+            ques9 = 2;
+            console.log(ques9);
+        }function ques9ans2(){
+            ques9 = 1;
+            console.log(ques9);
+        }function ques9ans4(){
+            ques9 = -1;
+            console.log(ques9);
+        }function ques9ans5(){
+            ques9 = -2;
+            console.log(ques9);
+        }
+
+        var ques10 = 0;
+
+        function ques10ans1(){
+            ques10 = 2;
+            console.log(ques10);
+        }function ques10ans2(){
+            ques10 = 1;
+            console.log(ques10);
+        }function ques10ans4(){
+            ques10 = -1;
+            console.log(ques10);
+        }function ques10ans5(){
+            ques10 = -2;
+            console.log(ques10);
+        }
+        var ques11 = 0;
+
+        function ques11ans1(){
+            ques11 = -2;
+            console.log(ques11);
+        }function ques11ans2(){
+            ques11 = -1;
+            console.log(ques11);
+        }function ques11ans4(){
+            ques11 = 1;
+            console.log(ques11);
+        }function ques11ans5(){
+            ques11 = 2;
+            console.log(ques11);
+        }
+
+        var ques12 = 0;
+
+        function ques12ans1(){
+            ques12 = 2;
+            console.log(ques12);
+        }function ques12ans2(){
+            ques12 = 1;
+            console.log(ques12);
+        }function ques12ans4(){
+            ques12 = -1;
+            console.log(ques12);
+        }function ques12ans5(){
+            ques12 = -2;
+            console.log(ques12);
+        }
+
+        var ques13 = 0;
+
+        function ques13ans1(){
+            ques13 = 2;
+            console.log(ques13);
+        }function ques13ans2(){
+            ques13 = 1;
+            console.log(ques13);
+        }function ques13ans4(){
+            ques13 = -1;
+            console.log(ques13);
+        }function ques13ans5(){
+            ques13 = -2;
+            console.log(ques13);
+        }
+
+        var ques14 = 0;
+
+        function ques14ans1(){
+            ques14 = 2;
+            console.log(ques14);
+        }function ques14ans2(){
+            ques14 = 1;
+            console.log(ques14);
+        }function ques14ans4(){
+            ques14 = -1;
+            console.log(ques14);
+        }function ques14ans5(){
+            ques14 = -2;
+            console.log(ques14);
+        }
+
+        var ques15 = 0;
+
+        function ques15ans1(){
+            ques15 = 2;
+            console.log(ques15);
+        }function ques15ans2(){
+            ques15 = 1;
+            console.log(ques15);
+        }function ques15ans4(){
+            ques15 = -1;
+            console.log(ques15);
+        }function ques15ans5(){
+            ques15 = -2;
+            console.log(ques15);
+        }
+
+        var ques16 = 0;
+
+        function ques16ans1(){
+            ques16 = 2;
+            console.log(ques16);
+        }function ques16ans2(){
+            ques16 = 1;
+            console.log(ques16);
+        }function ques16ans4(){
+            ques16 = -1;
+            console.log(ques16);
+        }function ques16ans5(){
+            ques16 = -2;
+            console.log(ques16);
+        }
+        
+        var ques17 = 0;
+
+        function ques17ans1(){
+            ques17 = -2;
+            console.log(ques17);
+        }function ques17ans2(){
+            ques17 = -1;
+            console.log(ques17);
+        }function ques17ans4(){
+            ques17 = 1;
+            console.log(ques17);
+        }function ques17ans5(){
+            ques17 = 2;
+            console.log(ques17);
+        }
+
+        var ques18 = 0;
+
+        function ques18ans1(){
+            ques18 = 2;
+            console.log(ques18);
+        }function ques18ans2(){
+            ques18 = 1;
+            console.log(ques18);
+        }function ques18ans4(){
+            ques18 = -1;
+            console.log(ques18);
+        }function ques18ans5(){
+            ques18 = -2;
+            console.log(ques18);
+        }
+
+        var ques19 = 0;
+
+        function ques19ans1(){
+            ques19 = -2;
+            console.log(ques19);;
+        }function ques19ans2(){
+            ques19 = -1;
+            console.log(ques19);
+        }function ques19ans4(){
+            ques19 = 1;
+            console.log(ques19);
+        }function ques19ans5(){
+            ques19 = 2;
+            console.log(ques19);
+        }
+
+        var ques20 = 0;
+
+        function ques20ans1(){
+            ques20 = 2;
+            console.log(ques20);
+        }function ques20ans2(){
+            ques20 = 1;
+            console.log(ques20);
+        }function ques20ans4(){
+            ques20 = -1;
+            console.log(ques20);
+        }function ques20ans5(){
+            ques20 = -2;
+            console.log(ques20);
+        }
+
+        
+
+    </script>
+</html>

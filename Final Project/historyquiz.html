@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>QuizQuestions - History Quiz</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div align="center">
+            <br><br>
+            <img id="imgtitl" style="bottom:800px;"height="150" width="466" class="grow" alt="QuizQuestions Logo" src="images/IMG_7661.jpg"><br>
+            <i id="link1">Quiz Questions, c. 2023 - All images created by Shay S. in Canva</i>
+            <br><br><br><br>
+            <hr>
+        </div>
+        <div id="div2">
+            <br><br><br><br><br><br><br><br><br>
+            <!--The CSS for the sidebar is based off of code accredited to W3Schools-->
+            <a href="indexo.html" id="return">Home Page</a>
+            <a href="feedback.html" id="feedback">Feedback</a>
+            <a href="suggestions.html" id="sug">Suggestions</a>
+            <a href="about.html" id="abo">About</a>
+            <a href="info.html" id="info">Quiz Info</a>
+            <a href="devel.html" id="devel">Progress</a>
+          </div>
+          <div id="hqpq1">
+            <p class="linksubtitle">I. When did the Second World War end?</p>
+                <ul class="qwe">
+                    <li><button class="button">1946</button></li>
+                    <li><button class="button" onclick="ques1a()">1945</button></li>
+                    <li><button class="button">1944</button></li>
+                    <li><button class="button">1889</button>
+                    <li><button class="button">1918</button></li>
+                </ul>
+          </div>
+          <div id="hqpq2">
+            <p class="linksubtitle">II. Who was the first Prime Minister of Canada?</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques2a()">John A. Macdonald</button></li>
+                    <li><button class="button">Alexander Mackenzie</button></li>
+                    <li><button class="button">John A. McDonalds</button></li>
+                    <li><button class="button">John Abbot</button>
+                    <li><button class="button">Wilfrid Laurier</button></li>
+                </ul>
+          </div>
+          <div id="hqpq3">
+            <p class="linksubtitle">III. The American Revolutionary <br> War took place in...</p>
+                <ul class="qwe">
+                    <li><button class="button">1776-1777</button></li>
+                    <li><button class="button">1776-1800</button></li>
+                    <li><button class="button">1780-1790</button></li>
+                    <li><button class="button" onclick="ques3a()">1775-1783</button></li>
+                    <li><button class="button">1775-1776</button>
+                </ul>
+          </div>
+          <div id="hqpq4">
+            <p class="linksubtitle">IV. Cristopher Colombus arrived <br> in America in...</p>
+                <ul class="qwe">
+                    <li><button class="button">1500</button></li>
+                    <li><button class="button" onclick="ques4a()">1492</button></li>
+                    <li><button class="button">1495</button></li>
+                    <li><button class="button">1600</button></li>
+                    <li><button class="button">1480</button>
+                </ul>
+          </div>
+          <div id="hqpq5">
+            <p class="linksubtitle">V. Genghis Khan began his rampage <br> accross Asia in...</p>
+                <ul class="qwe">
+                    <li><button class="button">1300</button></li>
+                    <li><button class="button">1227</button></li>
+                    <li><button class="button">1949</button></li>
+                    <li><button class="button">1296</button></li>
+                    <li><button class="button" onclick="ques5a()">1206</button>
+                </ul>
+          </div>
+          <div id="hqpq6">
+            <p class="linksubtitle">VI. The (mythological) First Emperor <br> of Japan rose to power in...</p>
+                <ul class="qwe">
+                    <li><button class="button">1632</button></li>
+                    <li><button class="button">711</button></li>
+                    <li><button class="button" onclick="ques6a()">660 BCE</button></li>
+                    <li><button class="button">492 BCE</button></li>
+                    <li><button class="button">33 CE</button>
+                </ul>
+          </div>
+          <div id="hqpq7">
+            <p class="linksubtitle">VII. The Period of the Three Kingdoms (三國)<br> in China took place from...</p>
+                <ul class="qwe">
+                    <li><button class="button">200-300 CE</button></li>
+                    <li><button class="button" onclick="ques7a()">220-280 CE</button></li>
+                    <li><button class="button">1925-1936</button></li>
+                    <li><button class="button">525-598 CE</button></li>
+                    <li><button class="button">500-100 BCE</button>
+                </ul>
+          </div>
+          <div id="hqpq8">
+            <p class="linksubtitle">VIII. The Great Wall of China (萬里長城)<br> was constructed from...</p>
+                <ul class="qwe">
+                    <li><button class="button">300-500</button></li>
+                    <li><button class="button">1369-1403</button></li>
+                    <li><button class="button" onclick="ques8a()">220 BCE - 14th Century CE</button></li>
+                    <li><button class="button">629 BCE - 484/5 BCE</button></li>
+                    <li><button class="button">799-943</button>
+                </ul>
+          </div>
+          <div id="hqpq9">
+            <p class="linksubtitle">IX. The First (possibly mythological)<br>Chinese Dynasty (Xia 夏朝) ruled from...</p>
+                <ul class="qwe">
+                    <li><button class="button">299 BCE - 467</button></li>
+                    <li><button class="button">1429-1555</button></li>
+                    <li><button class="button">400-495</button></li>
+                    <li><button class="button">3000 BCE - 2500 BCE</button></li>
+                    <li><button class="button" onclick="ques9a()">2070 BCE - 1600 BCE</button>
+                </ul>
+          </div>
+          <div id="hqpq10">
+            <p class="linksubtitle">X. The First Mesopotamnian Empire <br> was the...</p>
+                <ul class="qwe">
+                    <li><button class="button">Umman Empire (𒄑𒆵𒆠)</button></li>
+                    <li><button class="button" onclick="ques10a()">Akkadian Empire (𒆳𒌵𒆠)</button></li>
+                    <li><button class="button">Mari Empire (𒈠𒌷𒆠)</button></li>
+                    <li><button class="button">Babaloyia (𒆳𒆍𒀭𒊏𒆠)</button></li>
+                    <li><button class="button">Egypt</button>
+                </ul>
+          </div>
+          <div id="hqpq11">
+            <p class="linksubtitle">XI. Why did Hammurabi (𒄩𒄠𒈬𒊏𒁉)<br> create Hammurabi's Code?</p>
+                <ul class="qwe">
+                    <li><button class="button">To defeat Egpyt</button></li>
+                    <li><button class="button">To consolidate power over the Governors</button></li>
+                    <li><button class="button">To prevent an invasion from the North</button></li>
+                    <li><button class="button" onclick="ques11a()">To standardize the chaotic legal system</button></li>
+                    <li><button class="button">To prevent the spread of the Romans</button>
+                </ul>
+          </div>
+          <div id="hqpq12">
+            <p class="linksubtitle">XII. When did the first Egyptian Dynasty begin?</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques12a()">3100 BCE</button></li>
+                    <li><button class="button">2900 BCE</button></li>
+                    <li><button class="button">300 CE</button></li>
+                    <li><button class="button">4000 BCE</button></li>
+                    <li><button class="button">1500 BCE</button>
+                </ul>
+          </div>
+          <div id="hqpq13">
+            <p class="linksubtitle">XIII. Why were the Pyramids built?</p>
+                <ul class="qwe">
+                    <li><button class="button">Royal vacation palaces</button></li>
+                    <li><button class="button">Defensive positions against Romans</button></li>
+                    <li><button class="button" onclick="ques13a()">To house the deceased Pharaohs</button></li>
+                    <li><button class="button">A symbol of Egpytian wealth</button></li>
+                    <li><button class="button">A safehouse if the Nile ever flooded</button>
+                </ul>
+          </div>
+          <div id="hqpq14">
+            <p class="linksubtitle">XIV. Why did Rome conquer Egpyt?</p>
+                <ul class="qwe">
+                    <li><button class="button">Prevent the formation of the Egpytian Empire</button></li>
+                    <li><button class="button">To control the river Nile</button></li>
+                    <li><button class="button">To steal all their gold</button></li>
+                    <li><button class="button">To prevent them allying with Carthage</button></li>
+                    <li><button class="button" onclick="ques14a()">To get Wealth and Grain, which financed and fed the Empire</button>
+                </ul>
+          </div>
+          <div id="hqpq15">
+            <p class="linksubtitle">XV. Why did William the Conquerer and <br> Harold Godwinson both try to take England in 1066?</p>
+                <ul class="qwe">
+                    <li><button class="button">To install a puppet king under their command</button></li>
+                    <li><button class="button">To divide England in half, under the Treaty of 1064</button></li>
+                    <li><button class="button">To kill the French King of England</button></li>
+                    <li><button class="button" onclick="ques15a()">They both had claims to the throne and wanted it</button></li>
+                    <li><button class="button">To prevent the Vikings from taking England</button>
+                </ul>
+          </div>
+          <div id="hqpq16">
+            <p class="linksubtitle">XVI. Why did the Pope call the first <br> crusade in 1096?</p>
+                <ul class="qwe">
+                    <li><button class="button">To consolidate power over the European Powers</button></li>
+                    <li><button class="button" onclick="ques16a()">To take back the land from the Seljuk Empire, <br> who threatened Christians in the region</button></li>
+                    <li><button class="button">To destroy the Al-Aqsa Mosque (جامع الأقصى)</button></li>
+                    <li><button class="button">Ensure the destruction of the Jerusalem, the Roman Empire's capital </button></li>
+                    <li><button class="button">Prevent the rise of the King of Israel</button>
+                </ul>
+          </div>
+          <div id="hqpq17">
+            <p class="linksubtitle">XVII. Who was the first Monarch of England</p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques17a()">Æthelstan</button></li>
+                    <li><button class="button">Ng'lish</button></li>
+                    <li><button class="button">William the Conquerer</button></li>
+                    <li><button class="button">Harold Godwinson</button></li>
+                    <li><button class="button">Elizabeth I</button></li>
+                </ul>
+          </div>
+          <div id="hqpq18">
+            <p class="linksubtitle">XVIII. Why did the 100s Year War (1337-1453) <br> between  between England and France happen? </p>
+                <ul class="qwe">
+                    <li><button class="button" onclick="ques18a()">Disputes over the French Crown</button></li>
+                    <li><button class="button">English occupation of Brittany and Normandy</button></li>
+                    <li><button class="button">French invasion of the Rhineland</button></li>
+                    <li><button class="button">Assasination of the English King by French mercenaries</button></li>
+                    <li><button class="button">The 5th Crusade for Paris</button>
+                </ul>
+          </div>
+          <div id="hqpq19">
+            <p class="linksubtitle">XIX. Henry VIII, a famous tudor King<br> of England, ruled from...</p>
+                <ul class="qwe">
+                    <li><button class="button">1508-1546</button></li>
+                    <li><button class="button">1499-1551</button></li>
+                    <li><button class="button" onclick="ques19a()">1509-1547</button></li>
+                    <li><button class="button">1547-1610</button></li>
+                    <li><button class="button">1223-1300</button>
+                </ul>
+          </div>
+          <div id="hqpq20">
+            <p class="linksubtitle">XX. Who was President of the <br> United States from 1881-1885</p>
+                <ul class="qwe">
+                    <li><button class="button">George Washington</button></li>
+                    <li><button class="button" onclick="ques20a()">Chester A. Arthur</button></li>
+                    <li><button class="button">Abraham Lincoln</button></li>
+                    <li><button class="button">Elon Musk</button></li>
+                    <li><button class="button">James A. Garfield</button>
+                </ul>
+          </div>
+          <div id="hqpq21">
+            <p class="linksubtitle"></p>
+                <ul class="qwe">
+                    <button class="button" onclick="ques21ans1()">Submit</button>
+                </ul>
+          </div>
+          <div id="endhq">
+            <p id="restitle" class="results" class="button"><b></b></p>
+          </div>
+    </body>
+    <script>
+        var titl = document.getElementById("imgtitl");
+        var text = document.getElementById("link1");
+        var timer = setInterval(mov, 13);
+        var move = 0;
+        var timer2 = setInterval(movtxt, 1)
+        var move2 = 0;
+        
+        function mov(){
+            titl.style.top = move + "px";
+            move++;
+            if(move >= 61){
+                clearInterval(timer);
+                }
+        }
+
+        function movtxt(){
+            text.style.top = move2 + "px";
+            move2++;
+            if(move2 >= 211){
+                clearInterval(timer2);
+                }
+        }
+        
+        var ques21 = 0;
+
+        function ques21ans1(){
+            ques21 = ques1 + ques2 + ques3 + ques4 + ques5 + ques6 + ques7 + ques8 + ques9 + ques10 + ques11 + ques12 + ques13 + ques14 + ques15 + ques16 + ques17 + ques18 + ques19 + ques20;
+            console.log(ques21);
+            var percent = (ques21/20)*100;
+            document.getElementById("restitle").innerHTML = "You got " + ques21 + "/20 correct!<br> " + "(" + percent + "%)" + "<br><br>Good job!";
+        }
+
+        var ques1 = 0;
+
+        function ques1a(){
+            ques1 = 1;
+            console.log(ques1);
+        }
+
+        var ques2 = 0;
+
+        function ques2a(){
+            ques2 = 1;
+            console.log(ques2);
+        }
+
+        var ques3 = 0;
+
+        function ques3a(){
+            ques3 = 1;
+            console.log(ques3);
+        }
+
+        var ques4 = 0;
+
+        function ques4a(){
+            ques4 = 1;
+            console.log(ques4);
+        }
+        var ques5 = 0;
+
+        function ques5a(){
+            ques5 = 1;
+            console.log(ques5);
+        }
+
+        var ques6 = 0;
+
+        function ques6a(){
+            ques6 = 1;
+            console.log(ques6);
+        }
+
+        var ques7 = 0;
+
+        function ques7a(){
+            ques7 = 1;
+            console.log(ques7);
+        }
+
+        var ques8 = 0;
+
+        function ques8a(){
+            ques8 = 1;
+            console.log(ques8);
+        }
+
+        var ques9 = 0;
+
+        function ques9a(){
+            ques9 = 1;
+            console.log(ques9);
+        }
+
+        var ques10 = 0;
+
+        function ques10a(){
+            ques10 = 1;
+            console.log(ques10);
+        }
+
+        var ques11 = 0;
+
+        function ques11a(){
+            ques11 = 1;
+            console.log(ques11);
+        }
+
+        var ques12 = 0;
+
+        function ques12a(){
+            ques12 = 1;
+            console.log(ques12);
+        }
+
+        var ques13 = 0;
+
+        function ques13a(){
+            ques13 = 1;
+            console.log(ques13);
+        }
+
+        var ques14 = 0;
+
+        function ques14a(){
+            ques14 = 1;
+            console.log(ques14);
+        }
+
+        var ques15 = 0;
+
+        function ques15a(){
+            ques15 = 1;
+            console.log(ques15);
+        }
+
+        var ques16 = 0;
+
+        function ques16a(){
+            ques16 = 1;
+            console.log(ques16);
+        }
+        
+        var ques17 = 0;
+
+        function ques17a(){
+            ques17 = 1;
+            console.log(ques17);
+        }
+
+        var ques18 = 0;
+
+        function ques18a(){
+            ques18 = 1;
+            console.log(ques18);
+        }
+
+        var ques19 = 0;
+
+        function ques19a(){
+            ques19 = 1;
+            console.log(ques19);;
+        }
+
+        var ques20 = 0;
+
+        function ques20a(){
+            ques20 = 1;
+            console.log(ques20);
+        }
+
+    </script>
+</html>
